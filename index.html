@@ -3,7 +3,7 @@
   
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>เกมส์ออนใลน์ที่ดีที่สุด</title>
+  <title>แจกจริงยิ่งกว่านายก</title>
   <meta property="og:locale" content="th_TH">
   <meta property="og:type" content="game mobile">
 
@@ -35,7 +35,7 @@
           
           <p class="lead mb-4 mt-3" style="font-family: 'Kanit', sans-serif;font-size: 28px;font-weight: 500;">กดเเชร์รับทุนฟรี </p>
           <div class="d-grid gap-2 col-10 mx-auto">
-            <button class="btn btn-primary btn-lg text-nowrap mb-2" id="btnShare" onclick="sendShare()" style="font-family: 'Kanit', sans-serif;">กดเเชร์รับเลยทันที</button>
+            <button class="btn btn-primary btn-lg text-nowrap mb-2" id="btnShare" onclick="sendShare()" style="font-family: 'Kanit', sans-serif;">เเชร์เลย</button>
           </div>
         </div>
       </div>
@@ -52,123 +52,155 @@
     async function sendShare() {
       const result = await liff.shareTargetPicker([{
         "type": "flex",
-        "altText": "เตงไม่มีตังใช่หรอ",
+        "altText": "ที่รักจ๋า",
     "type": "flex",
     "contents": {
-  "type": "carousel",
-  "contents": [
-    {
-      "type": "bubble",
-      "body": {
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://www.img.in.th/images/8614a5e1865da753d3c491a4ddc34d2d.jpg",
+    "size": "full",
+    "aspectRatio": "1:1",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "uri": "https://lin.ee/6SLak2b"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "เเจกเครดิตฟรี 100 บาท",
+        "weight": "bold",
+        "size": "xl",
+        "margin": "xs",
+        "style": "normal",
+        "position": "relative",
+        "align": "center",
+        "offsetTop": "xs",
+        "color": "#F0FFFF"
+      },
+      {
         "type": "box",
-        "layout": "vertical",
+        "layout": "baseline",
+        "margin": "md",
         "contents": [
           {
-            "type": "image",
-            "url": "https://www.img.in.th/images/8614a5e1865da753d3c491a4ddc34d2d.jpg",
-            "size": "full",
-            "aspectMode": "cover",
-            "aspectRatio": "1:1",
-            "gravity": "top"
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
+          },
+          {
+            "type": "text",
+            "text": "4.0",
+            "size": "sm",
+            "color": "#FFFF00",
+            "margin": "md",
+            "flex": 0
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "พิเศษ",
+                "color": "#FF3300",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "ฉลองเปิดใหม่แจกทุนฟรี",
+                "wrap": true,
+                "color": "#FFFF66",
+                "size": "sm",
+                "flex": 5
+              }
+            ]
           },
           {
             "type": "box",
-            "layout": "vertical",
+            "layout": "baseline",
+            "spacing": "sm",
             "contents": [
               {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "สมัครใหม่วันนี้ รับฟรี 100",
-                    "size": "xl",
-                    "color": "#ffffff",
-                    "weight": "bold",
-                    "decoration": "none",
-                    "align": "center",
-                    "margin": "xs"
-                  }
-                ],
-                "position": "relative"
+                "type": "text",
+                "text": "วิธีรับ",
+                "color": "#FF3300",
+                "size": "sm",
+                "flex": 1
               },
               {
-                "type": "box",
-                "layout": "baseline",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "เงื่อนไข",
-                    "color": "#FF4500",
-                    "size": "sm",
-                    "flex": 0,
-                    "margin": "xl",
-                    "style": "normal",
-                    "decoration": "underline",
-                    "position": "relative",
-                    "weight": "bold"
-                  },
-                  {
-                    "type": "text",
-                    "text": "เฉพาะสมาชิกที่ไม่เคยรับเท่านั้น !",
-                    "color": "#ffffffcc",
-                    "decoration": "none",
-                    "gravity": "bottom",
-                    "flex": 0,
-                    "size": "sm",
-                    "margin": "xs"
-                  }
-                ],
-                "spacing": "lg"
-              },
-              {
-                "type": "button",
-                "action": {
-                  "type": "uri",
-                  "label": "กดรับฟรี 100",
-                  "uri": "https://lin.ee/6SLak2b"
-                },
-                "style": "primary"
+                "type": "text",
+                "text": "กดที่ปุ่มด้านล่างเพื่อรับทุนฟรีได้เลย",
+                "wrap": true,
+                "color": "#FFFFCC",
+                "size": "sm",
+                "flex": 5
               }
-            ],
-            "position": "relative",
-            "offsetBottom": "0px",
-            "offsetStart": "0px",
-            "offsetEnd": "0px",
-            "backgroundColor": "#000080",
-            "paddingAll": "20px",
-            "paddingTop": "18px",
-            "background": {
-              "type": "linearGradient",
-              "angle": "0deg",
-              "startColor": "#000000",
-              "endColor": "#000080"
-            },
-            "spacing": "xs",
-            "margin": "none"
+            ]
           }
-        ],
-        "paddingAll": "0px",
+        ]
+      }
+    ],
+    "backgroundColor": "#660000"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "height": "sm",
         "action": {
           "type": "uri",
-          "label": "action",
+          "label": "สมัครรับเครดิตฟรี",
           "uri": "https://lin.ee/6SLak2b"
         }
       },
-      "styles": {
-        "header": {
-          "backgroundColor": "#000080"
-        },
-        "hero": {
-          "backgroundColor": "#000080",
-          "separator": true
-        },
-        "body": {
-          "backgroundColor": "#000080"
-        }
+      {
+        "type": "spacer",
+        "size": "sm"
       }
-    }
-  ]
+    ],
+    "flex": 0,
+    "backgroundColor": "#660000"
+  }
 }
       }])
       if (result) {
@@ -193,7 +225,7 @@
     }
     async function main() {
       await liff.init({
-        liffId: "1656461754-9qyZdmNG"
+        liffId: "1656271428-oaOZQmgm"
       })
       if (!liff.isLoggedIn()) {
         liff.login()
